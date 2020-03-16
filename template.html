@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Distribution of confirmed cases of COVID-19 in England</title>
+  <style>
+    img {
+        max-height: 95vh;
+        height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="links">
+    {% for file in files %}
+    <button onclick="updateImage('{{ file }}')">{{ file }}</button><br>
+    {% endfor %}
+  </div>
+  <div class="image-container">
+    <img id="image" src="{{ files[-1] }}"></img>
+  </div>
+<script>
+  function updateImage(newImagePath) {
+    console.log(newImagePath)
+    document.getElementById("image").src=newImagePath
+  }
+</script>
+</body>
+</html>
