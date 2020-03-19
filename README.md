@@ -9,7 +9,7 @@ Data for COVID-19 cases are published by Public Health England (PHE) daily for U
 These are merged with data from the Office for National Statistics (ONS) on populations, in order to show the density of COVID-9 cases.
 
 ## Results
-![18 March 2020](charts/covid-19-england-2020-March-18.png)
+![19 March 2020](charts/covid-19-england-2020-March-19.png)
 
 ## Sources
 
