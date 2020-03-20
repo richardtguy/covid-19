@@ -6,7 +6,7 @@ Daily analysis of distribution of COVID-19 cases in England, based on data from 
 
 Data for COVID-19 cases are published by Public Health England (PHE) daily for Upper Tier Local Authority (UTLA) areas in England.
 
-These are merged with data from the Office for National Statistics (ONS) on populations, in order to show the density of COVID-9 cases.
+These are merged with data from the Office for National Statistics (ONS) on populations, in order to show the density of COVID-19 cases.
 
 ## Results
 ![19 March 2020](charts/covid-19-england-2020-March-19.png)
